@@ -1,0 +1,83 @@
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\dotnet mvc sample.dll.config
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\dotnet mvc sample.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\dotnet mvc sample.pdb
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\csc.exe
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\csc.exe.config
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\csc.rsp
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\csi.exe
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\csi.exe.config
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\csi.rsp
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.AppContext.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Collections.Immutable.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Console.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.IO.Compression.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.IO.FileSystem.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.IO.Pipes.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Reflection.Metadata.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Security.AccessControl.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Security.Claims.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.ValueTuple.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Xml.XPath.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\vbc.exe
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\vbc.exe.config
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\vbc.rsp
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\VBCSCompiler.exe
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\roslyn\VBCSCompiler.exe.config
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Antlr3.Runtime.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Microsoft.Web.Infrastructure.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Newtonsoft.Json.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Syncfusion.EJ2.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Syncfusion.Licensing.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.Helpers.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.Mvc.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.Optimization.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.Razor.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.WebPages.Deployment.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.WebPages.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.WebPages.Razor.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\WebGrease.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Newtonsoft.Json.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Syncfusion.EJ2.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.Helpers.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.Mvc.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.Optimization.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.Razor.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.WebPages.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.WebPages.Deployment.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Web.WebPages.Razor.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Antlr3.Runtime.pdb
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Ticket\Ticket - 552492\dotnet mvc sample\obj\Debug\dotnet mvc sample.csproj.AssemblyReference.cache
+D:\Ticket\Ticket - 552492\dotnet mvc sample\obj\Debug\dotnet mvc sample.csproj.CoreCompileInputs.cache
+D:\Ticket\Ticket - 552492\dotnet mvc sample\obj\Debug\dotnet mvc sample.csproj.CopyComplete
+D:\Ticket\Ticket - 552492\dotnet mvc sample\obj\Debug\dotnet mvc sample.dll
+D:\Ticket\Ticket - 552492\dotnet mvc sample\obj\Debug\dotnet mvc sample.pdb

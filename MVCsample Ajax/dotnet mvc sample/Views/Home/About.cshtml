@@ -1,0 +1,128 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+<template>
+    <div id="app">
+        <ejs-grid id="Grid"
+                  ref="grid"
+                  :dataSource="data"
+                  :allowPaging="true"
+                  :allowGrouping="true"
+                  :groupSettings="groupSettings">
+            <e-columns>
+                <e-column field="OrderID" headerText="Order ID" width="90"></e-column>
+                <e-column field="CustomerID"
+                          headerText="Customer ID"
+                          :valueAccessor="valueAccess1"
+                          width="120"></e-column>
+                <e-column field="ShipCity" headerText="Ship City" :valueAccessor="valueAccess2" width="120"></e-column>
+                <e-column field="Freight" headerText="Freight" format="C2" width="90"></e-column>
+            </e-columns>
+        </ejs-grid>
+    </div>
+</template>
+
+<script>
+import Vue from "vue";
+import { GridPlugin, Aggregate, Group, Page } from "@syncfusion/ej2-vue-grids";
+import { data } from "./datasource";
+
+Vue.use(GridPlugin);
+
+export default {
+  data() {
+    return {
+      data: data.slice(0, 7),
+      groupSettings: {
+        captionTemplate: function() {
+          return {
+            template: Vue.component("columnTemplate", {
+              template: `<div>{{captionValue}}</div>`,
+              data: function() {
+                return {
+                  data: {}
+                };
+              },
+              computed: {
+                captionValue: function(value) {
+                  debugger;
+                  var x = value.data.count;
+                  if (x > 1) {
+                    x = value.data.count + "items";
+                  } else {
+                    x = value.data.count + "item";
+                  }
+                  switch (value.data.field) {
+                    case "ShipCity":
+                      if (value.data.items.level) {
+                        return (
+                          value.data.field +
+                          ": " +
+                          value.data.items.records[0][value.data.field] +
+                          " " +
+                          value.data.items.records[0].ShipCountry +
+                          " " +
+                          x
+                        );
+                      } else {
+                        return (
+                          value.data.field +
+                          ": " +
+                          value.data.items[0][value.data.field] +
+                          " " +
+                          value.data.items[0].ShipCountry +
+                          " " +
+                          x
+                        );
+                      }
+                    case "CustomerID":
+                      if (value.data.items.level) {
+                        return (
+                          value.data.field +
+                          ": " +
+                          value.data.items.records[0][value.data.field] +
+                          " " +
+                          value.data.items.records[0].ShipCity +
+                          " " +
+                          x
+                        );
+                      } else {
+                        return (
+                          value.data.field +
+                          ": " +
+                          value.data.items[0][value.data.field] +
+                          " " +
+                          value.data.items[0].ShipCity +
+                          " " +
+                          x
+                        );
+                      }
+                    default:
+                      return value.data.field + ": " + value.data.key + " " + x;
+                  }
+                }
+              }
+            })
+          };
+        },
+        columns: ["CustomerID"]
+      }
+    };
+  },
+  provide: {
+    grid: [Page, Aggregate, Group]
+  },
+  methods: {
+    valueAccess1: function(field, data, column) {
+      return data[field] + "-" + data["ShipCity"];
+    },
+    valueAccess2: function(field, data, column) {
+      return data[field] + "-" + data["ShipCountry"];
+    }
+  }
+};
+</script>

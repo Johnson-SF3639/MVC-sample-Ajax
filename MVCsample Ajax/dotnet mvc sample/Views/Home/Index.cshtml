@@ -1,0 +1,44 @@
+﻿
+
+<br />
+<br />
+
+@Html.EJS().Button("SendData").Content("sendData").Render()
+
+@Html.EJS().TextBox("firstname").Placeholder("First Name").Value("John").FloatLabelType(Syncfusion.EJ2.Inputs.FloatLabelType.Auto).Render();
+@Html.EJS().TextBox("lastname").Placeholder("Last Name").Value("Robert").FloatLabelType(Syncfusion.EJ2.Inputs.FloatLabelType.Auto).Render();
+
+@Html.EJS().Grid("Grid").Height(350).AllowPaging(true).DataSource((IEnumerable<object>)ViewBag.DataSource).AllowResizing(true).Columns(col =>
+{
+    col.Type("Checkbox").Width("50").Add();
+    col.Field("EmployeeID").HeaderText("Employee ID").IsPrimaryKey(true).Width("120").Add();
+    col.Field("Role").HeaderText("Role").Width("150").Add();
+    col.Field("Salary").HeaderText("Salary").Width("130").Add();
+    col.Field("Address").HeaderText("Address").Width("120").Add();
+
+}).EditSettings(edit => { edit.AllowAdding(true).AllowEditing(true).AllowDeleting(true).Mode(Syncfusion.EJ2.Grids.EditMode.Normal); }).Render()
+
+
+<script>
+    document.getElementById('SendData').addEventListener("click", function (e) {
+        var formData = {
+            FirstName: document.getElementById('firstname').value,
+            LastName: document.getElementById('lastname').value
+        }
+        var grid = document.querySelector('#Grid').ej2_instances[0];
+        var gridData = grid.getSelectedRecords();
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/FormSubmitGridData",
+            contentType: "application/json",
+            data: JSON.stringify({ NormalGridData: gridData, FormData: formData }),
+            success: function (content) {
+                console.log("success")
+            }
+        });
+
+    });
+
+
+</script>

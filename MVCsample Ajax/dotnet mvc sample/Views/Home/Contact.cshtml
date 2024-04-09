@@ -1,0 +1,60 @@
+﻿<div>
+    <h2>Bootstrap Tabs</h2>
+    <ul class="nav nav-tabs">
+        <li class="active">
+            <a data-toggle="tab" href="#activities">Activities</a>
+        </li>
+        <li class="nav-item">
+            <a data-toggle="tab" href="#events">Events</a>
+        </li>
+        <li class="nav-item">
+            <a data-toggle="tab" href="#documents">Documents</a>
+        </li>
+        <li class="nav-item">
+            <a data-toggle="tab" href="#contacts">Contacts</a>
+        </li>
+        <li class="nav-item">
+            <a data-toggle="tab" href="#settings">Settings</a>
+        </li>
+    </ul>
+</div>
+<div class="tab-content">
+    <div id="activities" class="tab-pane fade in active">
+        @Html.EJS().Grid("Grid1").DataSource((IEnumerable<object>)ViewBag.DataSource1).Columns(col =>
+{
+   col.Field("UnitID").HeaderText("Unit ID").Width("150").Add();
+   col.Field("DnName").HeaderText("Dn Name").Width("120").Add();
+   col.Field("ShipAddress").HeaderText("Ship Address").Width("125").Add();
+}).Render()
+    </div>
+    <div id="events" class="tab-pane fade">
+        @Html.EJS().Grid("Grid2").DataSource((IEnumerable<object>)ViewBag.DataSource2).Columns(col =>
+{
+col.Field("OrderID").HeaderText("Order ID").Width("150").Add();
+col.Field("EmployeeID").HeaderText("Employee ID").Width("120").Add();
+col.Field("ShipCity").HeaderText("Ship City").Width("125").Add();
+}).Render()
+    </div>
+    <div id="documents" class="tab-pane fade">
+        @Html.EJS().Grid("Grid3").DataSource((IEnumerable<object>)ViewBag.DataSource3).Columns(col =>
+{
+col.Field("OrderID").HeaderText("Order ID").Width("150").Add();
+col.Field("Verified").HeaderText("Verified").Width("120").Template("#template").Add();
+col.Field("ShipCountry").HeaderText("Ship Country").Width("125").Add();
+}).Render()
+    </div>
+    <div id="contacts" class="tab-pane fade">
+        There is No Grid
+    </div>
+    <div id="settings" class="tab-pane fade">
+        There is No Grid
+    </div>
+</div>
+
+<script id="template" type="text/x-template">
+    <div>
+        <div>
+            ${if(Verified)}<button>Delete</button>${/if}
+        </div>
+    </div>
+</script>
